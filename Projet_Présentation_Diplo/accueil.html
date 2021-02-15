@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Liens pour faire fonctionner le sites-->
+        <title> Diplo Discover </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/accueil.css" />
+    </head>
+    <body>
+        <div id = "global">
+            <nav class="navbar navbar-expand-md navbar-light bg-ld sticky-top">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button><!--boutton pour menu mobile-->
+                
+                <div class="collapse navbar-collapse" id="collapse_target">  
+                <a class="navbar-brand" href="accueil.html"><img id="logo-img" src="images/diplologo.png">
+                </a><!--le logo-->
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="accueil.html">
+                            Accueil
+                        </a>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
+                            Qui est-ce ?
+                            <span class="caret"></span>
+                        </a><!--button pour afficher les sous menu-->
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <!--sous menu deroulant-->
+                            <ul class="nabar-nav">
+                                <a class ="dropdown-item" href="biographie.html">Biographie</a>
+                                <div class="dropdown-divider"></div>
+                                <a class ="dropdown-item" href="evolution.html">Evolution</a>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
+                            Discographie
+                            <span class="caret"></span>
+                        </a><!--button pour afficher les sous menu-->
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <!--sous menu deroulant-->
+                            <ul class="nabar-nav">
+                                <a class ="dropdown-item" href="album.html">Album</a>
+                                <div class="dropdown-divider"></div>
+                                <a class ="dropdown-item" href="musique.html">Musique</a>
+                                <a class ="dropdown-item" href="colaboration.html">Colaboration</a>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
+                            A propos
+                            <span class="caret"></span>
+                        </a><!--button pour afficher les sous menu-->
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <!--sous menu deroulant-->
+                            <ul class="nabar-nav">
+                                <a class ="dropdown-item" href="qui-sommes-nous.html">Qui Somme Nous</a>
+                                <div class="dropdown-divider"></div>
+                                <a class ="dropdown-item" href="nous-contacter.html">Nous contacter</a>
+                            </ul>
+                        </div>
+                    </li> 
+                </ul><!--le menu-->
+                </div>  
+            </nav>
+            <header>
+                <div id="slideur-diapo" class="carousel slide" data-ride="carousel">
+                    <!--Slider des Albums-->
+                    <ul class="carousel-indicators">
+                        <li data-target="#slideur-diapo" data-slide-to="1" class="active"></li>
+                        <li data-target="#slideur-diapo" data-slide-to="2"></li>
+                        <li data-target="#slideur-diapo" data-slide-to="3"></li>
+                        <li data-target="#slideur-diapo" data-slide-to="4"></li>
+                        <li data-target="#slideur-diapo" data-slide-to="5"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="image-diapo">
+                                <img src="images/photoDiplo3.png" alt="Photo de Diplo">
+                            </div>
+                            <div class="carousel-caption">
+                                <a href="biographie.html"><h3>Découvrir Diplo</h3></a>
+                            </div>   
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-diapo">
+                                <img src="images/evolution.png" alt="Evolution">
+                            </div>
+                            <div class="carousel-caption">
+                                <a href="evolution.html"><h3>Découvrir son évolution</h3></a>
+                            </div>   
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-diapo">
+                                <img src="images/albumAccueil.png" alt="Albums de Diplo">
+                            </div>
+                            <div class="carousel-caption">
+                                <a href="album.html"><h3>Découvrir ses Albums</h3></a>
+                            </div>   
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-diapo">
+                                <img src="images/musiqueAccueil.png" alt="Musiques de Diplo">
+                            </div>
+                            <div class="carousel-caption">
+                                <a href="musique.html"><h3>Découvrir ses Musiques</h3></a>
+                            </div>   
+                        </div>
+                        <div class="carousel-item">
+                            <div class="image-diapo">
+                                <img src="images/bitmojigroupe.png" alt="Photo du groupe">
+                            </div>
+                            <div class="carousel-caption">
+                                <a href="qui-sommes-nous.html"><h3>Qui sommes nous ?</h3></a>
+                            </div>   
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slideur-diapo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#slideur-diapo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </header>
+            <section class="row">
+                <article class="row col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="col-xs-12 col-md-12 col-lg-12">Biographie</h3>
+                    
+                    <div class="row col-xs-12 col-md-12 col-lg-12 box">
+                    <img class="col-xs-12 col-md-6 col-lg-7" id="photo-bio" src="images/photoDiplo4.png">
+                    <div class="row col-xs-12 col-md-6 col-lg-5">
+                        
+                    <p class="col-xs-12 col-md-12 col-lg-12">
+                    Dans cette page vous avez la posibilité de découvrir qui est Diplo et comment il a pu devenir une aussi grande star aujourd'hui.
+                    </p>
+                    <a href="biographie.html"><button type="button" class="col-xs-12 col-md-12 col-lg-12 btn btn-secondary">En savoir plus</button></a>
+                    </div>
+                    </div>
+                </article>
+                <article class="row col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="col-xs-12 col-md-12 col-lg-12">Evolution</h3>
+                    
+                    <div class="article_contenu row col-xs-12 col-md-12 col-lg-12 box">
+                    <div class="row col-xs-12 col-md-6 col-lg-5">
+                    <p class="col-xs-12 col-md-12 col-lg-12">
+                    Cette page vous permettra de suivre l'évolution artistique de Diplo depuis ses débuts dans le milieu de la musique
+                    </p>          
+                    <a href="evolution.html"><button type="button" class="col-xs-12 col-md-12 col-lg-12 btn btn-secondary">En savoir plus</button></a>
+                        
+                    </div>
+                    <img class="col-xs-12 col-md-6 col-lg-7" id="photo-evolution" src="images/evolution.png">
+                    </div>
+                </article>
+                <article class="row col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="col-xs-12 col-md-12 col-lg-12">Album</h3>
+                    
+                    <div class="row col-xs-12 col-md-12 col-lg-12 box">
+                    <img class="col-xs-12 col-md-6 col-lg-7" id="photo-album" src="images/albumAccueil.png">
+                    <div class="row col-xs-12 col-md-6 col-lg-5">
+                    <p  class="col-xs-12 col-md-12 col-lg-12">
+                    Vous appréciez Diplo et souhaitez avoir un avant-goût de ses projets, cette page vous donne la possibilité de découvrir les albums de Diplo.
+                    </p>
+                    <a href="album.html"><button type="button" class="col-xs-12 col-md-12 col-lg-12 btn btn-secondary">En savoir plus</button></a>
+                    </div>
+                    </div>
+                </article>
+                <article class="row col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="col-xs-12 col-md-12 col-lg-12">Musique</h3>
+                    <div class="row col-xs-12 col-md-12 col-lg-12 box">
+                    <div class="row col-xs-12 col-md-6 col-lg-5">
+                    <p class="col-xs-12 col-md-12 col-lg-12">
+                    Diplo étant un DJ, fait donc énormément de collaborations avec des artistes du monde entier. Venez donc decouvir quelques uns des ses plus grands succès musicaux.
+                    </p>
+                    <a href="musique.html"><button type="button" class="col-xs-12 col-md-12 col-lg-12 btn btn-secondary">En savoir plus</button></a>
+                    </div>
+                    <img class="col-xs-12 col-md-6 col-lg-7" id="photo-musique" src="images/musiqueAccueil.png">
+                    </div>
+                </article>
+                <article class="row col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="col-xs-12 col-md-12 col-lg-12">Qui sommes nous ?</h3>
+                    <div class="row col-xs-12 col-md-12 col-lg-12 box">
+                    <img class="col-xs-12 col-md-6 col-lg-7" id="photo-nous" src="images/bitmojigroupe.png">
+                    <div class="row col-xs-12 col-md-6 col-lg-5"> 
+                    <p class="col-xs-12 col-md-12 col-lg-12">
+                    Vous vous demandez sûrement qui est à l'origine de ce site, cette page permettra de vous éclairer sur qui nous sommes.
+                    </p>
+                    <a href="qui-sommes-nous.html"><button type="button" class="col-xs-12 col-md-12 col-lg-12 btn btn-secondary">En savoir plus</button></a>
+                    </div>
+                </div>
+                </article>
+            </section>
+            <footer class="col-xs-12 col-md-12 col-lg-12 bg-dark row">
+                <div class="justify-content-center col-xs-12 col-md-12 col-lg-4" id="footer-reseaux">
+                    <div class="jumbotron jumbotron-fluid change bg-dark">
+                    <div class="container">
+                        <ul class="list-unstyled list-inline text-center text-white">
+                            <h3>Suivez-nous :</h3>
+                            <br>
+                            <li class="list-inline-item">
+                                <a href="https://fr-fr.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=fr" target="_blank" class="fa fa-twitter"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/?hl=fr" target="_blank" class="fa fa-instagram"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://accounts.snapchat.com/accounts/snapcodes" target="_blank" class="fa fa-snapchat-ghost"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="justify-content-center col-xs-6 col-md-6 col-lg-4" id="footer-menu">
+                    <ul>
+                        <h4>Menu</h4>
+                        <h5>Qui est-ce ?</h5>
+                            <a href="biographie.html"><li>- Biographie</li></a>
+                            <a href="evolution.html"><li>- Evolution</li></a>
+                        <h5>Discographie</h5>
+                            <a href="album.html"><li>- Album</li></a>
+                            <a href="musique.html"><li>- Musique</li></a>
+                            <a href="colaboration.html"><li>- Collaboration</li></a>
+                    </ul>
+                </div>
+                <div class="justify-content-center col-xs-6 col-md-6 col-lg-4" id="footer-a-propos">
+                    <h5>A propos</h5>
+                        <a href="qui-sommes-nous.html"><li>- Qui sommes nous</li></a>
+                        <a href="nous-contacter.html"><li>- Nous contacter</li></a>
+                        <a href="reference.html"><li>- Sources</li></a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

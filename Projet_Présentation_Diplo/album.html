@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Albums </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/album.css" />
+    </head>
+    <body>
+        <div id = "global">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button><!--boutton pour menu mobile-->
+                
+                <div class="collapse navbar-collapse" id="collapse_target">  
+                <a class="navbar-brand" href="accueil.html"><img id="logo-img" src="images/diplologo.png">
+                </a><!--le logo-->
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="accueil.html">
+                            Accueil
+                        </a>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
+                            Qui est-ce ?
+                            <span class="caret"></span>
+                        </a><!--button pour afficher les sous menu-->
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <!--sous menu deroulant-->
+                            <ul class="nabar-nav">
+                                <a class ="dropdown-item" href="biographie.html">Biographie</a>
+                                <div class="dropdown-divider"></div>
+                                <a class ="dropdown-item" href="evolution.html">Evolution</a>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
+                            Discographie
+                            <span class="caret"></span>
+                        </a><!--button pour afficher les sous menu-->
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <!--sous menu deroulant-->
+                            <ul class="nabar-nav">
+                                <a class ="dropdown-item" href="album.html">Album</a>
+                                <div class="dropdown-divider"></div>
+                                <a class ="dropdown-item" href="musique.html">Musique</a>
+                                <a class ="dropdown-item" href="colaboration.html">Collaboration</a>
+                            </ul>
+                        </div>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#"> 
+                            A propos
+                            <span class="caret"></span>
+                        </a><!--button pour afficher les sous menu-->
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <!--sous menu deroulant-->
+                            <ul class="nabar-nav">
+                                <a class ="dropdown-item" href="qui-sommes-nous.html">Qui Sommes Nous</a>
+                                <div class="dropdown-divider"></div>
+                                <a class ="dropdown-item" href="nous-contacter.html">Nous contacter</a>
+                            </ul>
+                        </div>
+                    </li> 
+                </ul><!--le menu-->
+                </div>  
+            </nav>
+            <header><h2>Vous allez découvir les albums et EP de Diplo</h2></header>
+            <section class="row">
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="florida-titre">
+                    <h3>Florida (2004)</h3>
+                    </div>
+                    <div class="album-spotify" id="florida-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/playlist/4Ooc3pw43y7fcrikCXL3vg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="decentWorkForDecentPay-titre">
+                    <h3>Decent Work For Decent Pay (2009)</h3>
+                    </div>
+                    <div class="album-spotify" id="decentWorkForDecentPay-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/album/1OVl2Lg0VD1gbBc9Xol8rA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="riddimentary-titre">
+                    <h3>Riddimentary (2011)</h3>
+                    </div>
+                    <div class="album-spotify" id="riddimentary-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/album/1ufx1n0l39tqBckZtB5Zmm" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="expressYourself-titre">
+                    <h3>Express Yourself - EP (2012)</h3>
+                    </div>
+                    <div class="album-spotify" id="expressYourself-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/playlist/2YBfhbEH0RvBjtaPP6jGE9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="revolution-titre">
+                    <h3>Revolution - EP (2013)</h3>
+                    </div>
+                    <div class="album-spotify" id="revolution-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/album/1LfYvibIWM1oqBIzO7XY3c" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="california-titre">
+                    <h3>California - EP (2018)</h3>
+                    </div>
+                    <div class="album-spotify" id="california-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/album/6jglLLjjKIBwfMmkxUdNjZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="europa-titre">
+                    <h3>Europa - EP (2019)</h3>
+                    </div>
+                    <div class="album-spotify" id="europa-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/album/10V0ef1laI8dZobwwHuitK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+                <article class="album col-xs-12 col-md-5 col-lg-5">
+                    <div class="titre-album" id="LSD-titre">
+                    <h3>LSD (2019)</h3>
+                    </div>
+                    <div class="album-spotify" id="LSD-spotify">
+                    <iframe class="lien-spotify" src="https://open.spotify.com/embed/album/0ujHQ5WCLuKJQXOqXpGtpf" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </article>
+            </section>
+            <footer class="col-xs-12 col-md-12 col-lg-12 bg-dark row">
+                <div class="col-xs-12 col-md-4 col-lg-4" id="footer-reseaux">
+                    <div class="jumbotron jumbotron-fluid change bg-dark">
+                    <div class="container">
+                        <ul class="list-unstyled list-inline text-center text-white">
+                            <h3>Suivez-nous :</h3>
+                            <br>
+                            <li class="list-inline-item">
+                                <a href="https://fr-fr.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/?lang=fr" target="_blank" class="fa fa-twitter"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/?hl=fr" target="_blank" class="fa fa-instagram"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://accounts.snapchat.com/accounts/snapcodes" target="_blank" class="fa fa-snapchat-ghost"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-4" id="footer-menu">
+                    <ul>
+                        <h4>Menu</h4>
+                        <h5>Qui est-ce ?</h5>
+                            <a href="biographie.html"><li>- Biographie</li></a>
+                            <a href="evolution.html"><li>- Evolution</li></a>
+                        <h5>Discographie</h5>
+                            <a href="album.html"><li>- Album</li></a>
+                            <a href="musique.html"><li>- Musique</li></a>
+                            <a href="colaboration.html"><li>- Collaboration</li></a>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-4" id="footer-a-propos">
+                    <h5>A propos</h5>
+                        <a href="qui-sommes-nous.html"><li>- Qui sommes nous</li></a>
+                        <a href="nous-contacter.html"><li>- Nous contacter</li></a>
+                        <a href="reference.html"><li>- Sources</li></a>
+                </div>
+            </footer>
+        </div>
+    </body>
+        
+</html>

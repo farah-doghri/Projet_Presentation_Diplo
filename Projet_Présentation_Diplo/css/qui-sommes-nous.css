@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Le menu et l'entête */
+.row {
+    margin-right : 0px;
+    margin-left : 0px;
+}
+
+.box{
+    margin-top:40px;
+}
+
+/* Le logo du menu */
+#logo-img{
+    height: 50px;
+    width: 60px;
+}
+#logo-img:hover{
+    transform: rotateX(180deg);
+}
+
+
+
+header{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/* La page */
+article{
+    margin-bottom: 50px;
+}
+.card {
+    border : 1px solid black;
+}
+.card-img-top{
+    height: 300px;
+}
+.btn-primary{
+    background-color: #B0B0B0;
+    border-color: #B0B0B0;
+}
+/* Fin page */
+
+
+
+/* Footer */
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+
+li {
+margin-bottom:15px;/* à adapter */
+list-style:none;
+}
+/* Fin footer */

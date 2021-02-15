@@ -1,0 +1,130 @@
+/* Elements general de la page
+Police, taille de la police
+Resposivité
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    font-size: 100%;
+    font:inherit;
+    vertical-align: baseline;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#global{
+    background-color: #F8F5F4;
+}
+.row {
+    margin-right : 0px;
+    margin-left : 0px;
+}
+
+.box{
+    margin-top:40px;
+}
+/* Fin Elements */
+
+
+/* Le logo du menu */
+#logo-img{
+    height: 50px;
+    width: 60px;
+}
+#logo-img:hover{
+    transform: rotateX(180deg);
+}
+/* Fin logo du menu */
+
+
+/* entête */
+header{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* entête */
+
+
+/* La page */
+.album{
+    margin: auto;
+    padding-bottom: 50px;   
+}/* les articles */
+
+/* Les titres */
+.titre-album{
+    background-image: url(../images/demi-disque.png);
+    background-size: 100% 100%;
+    height: 170px;
+    color: #AAC334;
+    font-weight: bold;
+}
+.titre-album > h3{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 25px;
+}
+/* Fin titres */
+
+.lien-spotify{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}/* le spotify*/
+
+
+/* Le backgroung des album */
+#florida-spotify{
+    background-image: url(../images/florida-pochette.png);
+    background-size: 100% 100%;
+}
+#decentWorkForDecentPay-spotify{
+    background-image: url(../images/decentWorkForDecentPay-pochette.png);
+    background-size: 100% 100%;
+}
+#riddimentary-spotify{
+    background-image: url(../images/riddimentary-pochette.png);
+    background-size: 100% 100%;
+}
+#expressYourself-spotify{
+    background-image: url(../images/expressYourself-pochette.png);
+    background-size: 100% 100%;
+}
+#revolution-spotify{
+    background-image: url(../images/revolution-pochette.png);
+    background-size: 100% 100%;
+}
+#california-spotify{
+    background-image: url(../images/california-pochette.png);
+    background-size: 100% 100%;
+}
+#europa-spotify{
+    background-image: url(../images/europa-pochette.png);
+    background-size: 100% 100%;
+}
+#LSD-spotify{
+    background-image: url(../images/LSD-pochette.png);
+    background-size: 100% 100%;
+}
+/* Fin backgroung des album */
+
+
+/* Fin page */
+
+
+/* Footer */
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+
+li {
+margin-bottom:15px;
+list-style:none;
+}
+/* Fin footer */
